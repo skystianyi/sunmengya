@@ -202,7 +202,7 @@ export default {
 
 <style lang="less" scoped>
 .changechicun{
-  width:414px;
+  width:100%;
   height:260px;
 }
 .van-nav-bar{
