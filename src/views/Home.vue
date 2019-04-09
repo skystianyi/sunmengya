@@ -269,7 +269,7 @@ img {
   margin-top:20px;
 }
 .firstbanner{
-  width:414px;
+  width:100%;
   height:145px;
   border-radius:60px;
 }
