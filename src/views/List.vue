@@ -21,7 +21,7 @@
         :desc="pro.descriptions"
         :title="pro.name"
         :thumb="'https://api.cat-shop.penkuoer.com' + pro.coverImg"
-        :thumb-link="`/list/${pro._id}`"
+        :thumb-link="`#/list/${pro._id}`"
       >
         <div slot="footer">
           <van-button class="addCartBtn" size="mini" @click="addToCart(pro._id)"
