@@ -19,7 +19,7 @@ export default {
       this.cartNum++;
     })
     if(sessionStorage.getItem('token')){
-      axios.get('http://api.cat-shop.penkuoer.com/api/v1/shop_carts', {
+      axios.get('https://api.cat-shop.penkuoer.com/api/v1/shop_carts', {
         headers: {
           'authorization':'Bearer '+sessionStorage.getItem('token')
         }

@@ -66,7 +66,7 @@ export default {
     addToCart(id){
       if(sessionStorage.getItem('token')){
         this.$eventBus.$emit('addToCart')
-          axios.post('http://api.cat-shop.penkuoer.com/api/v1/shop_carts',
+          axios.post('https://api.cat-shop.penkuoer.com/api/v1/shop_carts',
           {
             product:id
           },{

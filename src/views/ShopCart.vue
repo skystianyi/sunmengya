@@ -14,7 +14,7 @@
           >
             <van-card
               v-if="item.product"
-              :thumb="`http://api.cat-shop.penkuoer.com${item.product.coverImg}`"
+              :thumb="`https://api.cat-shop.penkuoer.com${item.product.coverImg}`"
               :desc="item.product.descriptions"
               :price="item.product.price"
               :thumb-link="`/list/${item.product._id}`"
@@ -107,7 +107,7 @@ export default {
   created() {/* 请求购物车数据 */
     if(sessionStorage.getItem('token')){
         this.islogin=true;
-        axios.get('http://api.cat-shop.penkuoer.com/api/v1/shop_carts',{
+        axios.get('https://api.cat-shop.penkuoer.com/api/v1/shop_carts',{
           headers:{
             'authorization':'Bearer '+sessionStorage.getItem('token')
           }
@@ -159,7 +159,7 @@ export default {
       if(sessionStorage.getItem('username')){
         this.islogin=true;
         setTimeout(() => {
-            axios.get('http://api.cat-shop.penkuoer.com/api/v1/shop_carts',{
+            axios.get('https://api.cat-shop.penkuoer.com/api/v1/shop_carts',{
               headers:{
                 'authorization':'Bearer '+sessionStorage.getItem('token')
               }
@@ -230,13 +230,13 @@ export default {
       })
         .then(() => {
           // on confirm
-          axios.delete('http://api.cat-shop.penkuoer.com/api/v1/shop_carts/' + id,{
+          axios.delete('https://api.cat-shop.penkuoer.com/api/v1/shop_carts/' + id,{
               headers:{
                 'authorization':'Bearer '+ sessionStorage.getItem('token')
               }
             })
           .then(res => {
-            axios.get('http://api.cat-shop.penkuoer.com/api/v1/shop_carts',{
+            axios.get('https://api.cat-shop.penkuoer.com/api/v1/shop_carts',{
               headers:{
                 'authorization':'Bearer '+sessionStorage.getItem('token')
               }
