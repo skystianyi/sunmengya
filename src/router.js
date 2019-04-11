@@ -17,7 +17,7 @@ import MyEg from "../src/views/MyEg.vue";
 Vue.use(Router);
 
 const router = new Router({
-  // mode: "history",
+  // mode: "history",解决网站部署的时候hash路由的问题；
   base: process.env.BASE_URL,
   routes: [
     {

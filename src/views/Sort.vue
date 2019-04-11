@@ -185,10 +185,12 @@ export default {
   height: 100%;
   display: flex;
   flex-direction: column;
+  
 }
 .van-tree-select {
   flex: 1;
   overflow: auto;
+  
 }
 .van-tree-select__nav {
   font-size: 18px;

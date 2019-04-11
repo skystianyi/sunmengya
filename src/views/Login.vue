@@ -34,7 +34,7 @@
       <input type="botton" class="reg" @click="regHandle" value="立即注册" />
     </div>
     <h1 class="logo">
-      <img src="../../public/images/yiguo_logo.png" />
+      <img src="../../public/images/1.gif" />
     </h1>
   </div>
 </template>
@@ -140,10 +140,10 @@ input {
 .logo {
   display: block;
   text-align: center;
-  margin-top:5rem;
+  margin-top:2rem;
 }
 .logo img {
-  height: 100px;
+  height: 140px;
   width:240px;
 }
 .van-tabbar {

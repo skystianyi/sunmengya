@@ -90,7 +90,7 @@ const mock = {
   ],
   firstBanner: {
     src:
-      "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=331395328,2707688664&fm=26&gp=0.jpg"
+      "http://hbimg.b0.upaiyun.com/6afeb8974cfd6321290b700b71c2a87d6ef774b137ee53-lE1qLS_fw658"
   },
   bannerSort: [
     {
@@ -224,6 +224,7 @@ export default {
 }
 .van-pull-refresh {
   margin-top: 46px;
+  height:722px;
 }
 img {
   max-width: 100%;
@@ -265,13 +266,13 @@ img {
   }
 }
 .first-screen{
-  margin-bottom:30px;
+  margin-bottom:20px;
   margin-top:20px;
 }
 .firstbanner{
   width:100%;
   height:145px;
-  border-radius:60px;
+  border-radius:30px;
 }
 .sort{
 height:50px;}
