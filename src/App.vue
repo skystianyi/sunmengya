@@ -7,6 +7,7 @@
       <van-tabbar-item icon="cart-o" :info="cartNum" :to="{name:'shopcart'}">购物车</van-tabbar-item>
       <van-tabbar-item icon="contact" :to="{name:'myeg'}">我的</van-tabbar-item>
     </van-tabbar>
+    
   </div>
 </template>
 
